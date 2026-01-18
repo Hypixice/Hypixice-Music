@@ -1,10 +1,17 @@
 <div align="center">
-  <div>
-    <img src="https://x19.fp.ps.netease.com/file/696c8a128f0376b4ef2ee155d5ZmuGRq07" width="50" height="50" style="vertical-align: middle; margin-right: 10px; border-radius: 10px;" />
-    <br>
-        <span style="outline: 2px solid black;">Hypixice Music</span>
-  </div>
+  <!-- 标题区域优化：使用 Flex 布局思想的 Table 结构，兼容性最强 -->
+  <table style="border: none; background: none;">
+    <tr style="border: none; background: none;">
+      <td style="border: none; background: none; padding: 0; vertical-align: middle;">
+        <img src="https://x19.fp.ps.netease.com/file/696c8a128f0376b4ef2ee155d5ZmuGRq07" width="64" height="64" style="border-radius: 12px;" />
+      </td>
+      <td style="border: none; background: none; padding-left: 15px; vertical-align: middle;">
+        <h1 style="margin: 0; font-size: 42px; border-bottom: none;">Hypixice Music</h1>
+      </td>
+    </tr>
+  </table>
 
+  <!-- 徽章区域 -->
   <p style="margin-top: 10px;">
     <img src="https://img.shields.io/badge/Version-1.1.4--fix1-blue?style=flat-square" alt="Version">
     <img src="https://img.shields.io/badge/Status-Beta-orange?style=flat-square" alt="Status">
@@ -19,15 +26,16 @@
   <p>
     <a href="https://www.hypixice.top/tw/h-music"><strong>🌐 在线体验 (Web版)</strong></a> | 
     <a href="https://status.hypixice.top/"><strong>📊 服务状态页</strong></a> |
-    <a href="https://gitee.com/Hypixice_master/hypixice-music/releases/"><strong>⬇️ 下载离线版</strong></a>
+    <!-- 这里的链接自动指向当前 GitHub 仓库的 Releases 页面 -->
+    <a href="../../releases"><strong>⬇️ 下载离线版</strong></a>
   </p>
 </div>
 
 ---
 
-<!-- 截图展示区域：保持并排 -->
+<!-- 截图展示区域 -->
 <div align="center">
-  <h3>软件预览</h3>
+  <h3>📱 软件预览</h3>
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none; padding: 10px;">
@@ -90,7 +98,7 @@
 直接访问 **[在线体验地址](https://www.hypixice.top/tw/h-music)** 即可使用最新功能。
 
 ### 方式二：离线版（本地运行）
-1. 前往 [Releases 页面](https://gitee.com/Hypixice_master/hypixice-music/releases/) 下载最新版 `.html` 文件。
+1. 前往 **[Releases 页面](../../releases)** 下载最新版 `.html` 文件。
 2. 双击在浏览器中打开该文件。
 
 ### 🕹️ 操作指南
